@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ceb3800.css",
-    "main.js": "/static/js/main.1ed76ea1.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/static/css/main.a8cf5943.css",
+    "main.js": "/static/js/main.27974060.js",
+    "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
     "static/media/02.jpg": "/static/media/02.e4d3b793aca3e4c1a2e6.jpg",
     "static/media/chickenDrumsticks01.jpg": "/static/media/chickenDrumsticks01.5034dd8f1cf0d5cafe05.jpg",
     "static/media/chickendrumstick02.jpg": "/static/media/chickendrumstick02.a109e7fdcc8abb1daa47.jpg",
@@ -31,12 +31,12 @@
     "index.html": "/index.html",
     "static/media/close-btn.svg": "/static/media/close-btn.2d6853254fc3e0699e3b.svg",
     "static/media/burger.svg": "/static/media/burger.4d9b82acdafa060bcff0.svg",
-    "main.1ceb3800.css.map": "/static/css/main.1ceb3800.css.map",
-    "main.1ed76ea1.js.map": "/static/js/main.1ed76ea1.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.a8cf5943.css.map": "/static/css/main.a8cf5943.css.map",
+    "main.27974060.js.map": "/static/js/main.27974060.js.map",
+    "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ceb3800.css",
-    "static/js/main.1ed76ea1.js"
+    "static/css/main.a8cf5943.css",
+    "static/js/main.27974060.js"
   ]
 }
