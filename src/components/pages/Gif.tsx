@@ -8,7 +8,7 @@ export const Gif = () => {
                 {/* <div className="shorter">
 
                 </div> */}
-                <div>
+                {/* <div>
                     <iframe 
                         title="eyes1"
                         src="https://giphy.com/embed/76G73yyx2ECSIkWeng" 
@@ -16,7 +16,7 @@ export const Gif = () => {
                         height="100%"
                         allowFullScreen={true}>
                     </iframe>
-                </div>
+                </div> */}
 
                 <div>
                     <iframe
