@@ -11,9 +11,9 @@ export const Contact = () => {
       <main className="contact">
         <div className="desc">
           <img alt='' src={yinwoods_head}></img>
-          <Link to="/">Yin Wrong</Link> is a Hong Kong-born, London-based Artist exploring existentialism, time, and identity through frame-by-frame 2D animation and willow charcoal painting. 
-            Per style is heavily influenced by the aesthetic of Memento Mori and spirit of Norman McLaren. 
+          <Link to="/">Yin Wrong</Link> Yin Wrong is a Hong Kong-born, London-based artist exploring themes of existentialism, time, and identity through frame-by-frame 2D animation and willow charcoal painting.
 
+Their work draws from the aesthetic of memento mori, the persistence of Norman McLaren, and the spirit of resistance embodied in the Harlem Renaissance. Yin's practice navigates the tension between memory, ephemerality, and endurance—asking what it means to exist, to vanish, and to leave a trace.
           <div >
             <br/>
             <br/>
