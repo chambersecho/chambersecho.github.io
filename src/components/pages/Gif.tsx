@@ -1,49 +1,29 @@
 import './Gif.css';
+import eyes1Gif from '../assets/images/Eyes1.gif';
+import eyes2Gif from '../assets/images/Eyes2.gif';
+import eyeBlinking from '../assets/images/Eyes_Blinking.gif';
+import eyesLooking from '../assets/images/Eyes_Looking.gif';
+import SkatingJasonLee from '../assets/images/Skating_Jason_Lee.gif';
+import SkatingJayAdams from '../assets/images/Skating_Jay_Adams.gif';
+import SkullSkeleton from '../assets/images/Skull_Skeleton.gif'
+import Television from '../assets/images/Television.gif'
+import FlowerBloom from '../assets/images/Flower_Bloom.gif'
+import BlackSheep from '../assets/images/Black_Sheep.gif'
 
 export const Gif = () => {
     return (
-        <main className="gif">
-            <div className="gif-left-col">
-               
-                {/* <div className="shorter">
+        <main className="gallery">
 
-                </div> */}
-                {/* <div>
-                    <iframe 
-                        title="eyes1"
-                        src="https://giphy.com/embed/76G73yyx2ECSIkWeng" 
-                        width="100%" 
-                        height="100%"
-                        allowFullScreen={true}>
-                    </iframe>
-                </div> */}
-
-                <div>
-                    <iframe
-                        title="eyes2"
-                        src="https://giphy.com/embed/Q9Qmp62OSdEVwrBn4v"
-                        width="100%" 
-                        height="60%"
-                        allowFullScreen={true}>
-                    </iframe>
-                </div>
-
-            </div>
-            <div className="gif-right-col">
-                
-                <div>
-                    <iframe
-                        title="eyes3"
-                        src="https://giphy.com/embed/XFZ09f4X5rxLlvItoE"
-                        width="100%" 
-                        height="100%"
-                        allowFullScreen={true}>
-                    </iframe>
-                </div>
-                
-                
-            </div>
-
+                <div className="SkullSkeleton"><img src={SkullSkeleton} alt=''></img></div>
+                <div className="SkatingJasonLee"><img src={SkatingJasonLee} alt=''></img></div>
+                <div className="SkatingJayAdams"><img src={SkatingJayAdams} alt=''></img></div>
+                <div className="Television"><img src={Television} alt=''></img></div>
+                <div className="eyesLooking"><img src={eyesLooking} alt=''></img></div>
+                <div className="BlackSheep"><img src={BlackSheep} alt=''></img></div>
+                <div className="FlowerBloom"><img src={FlowerBloom} alt=''></img></div>
+                <div className="eyes1Gif"><img src={eyes1Gif} alt=''></img></div>
+                <div className="eyes2Gif"><img src={eyes2Gif} alt=''></img></div>
+                <div className="eyeBlinking"><img src={eyeBlinking} alt=''></img></div>
 
         </main>
     )
