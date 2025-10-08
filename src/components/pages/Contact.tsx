@@ -11,7 +11,8 @@ export const Contact = () => {
       <main className="contact">
         <div className="desc">
           <img alt='' src={yinwoods_head}></img>
-          <Link to="/">Yin</Link> is a Hong Kong-born, London-based Artist 
+          <Link to="/">Yin Wrong</Link> is a Hong Kong-born, London-based Artist exploring existentialism, time, and identity through frame-by-frame 2D animation and willow charcoal painting. 
+            Per style is heavily influenced by the aesthetic of Memento Mori and spirit of Norman McLaren. 
 
           <div >
             <br/>
