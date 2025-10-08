@@ -1,9 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import logo from './assets/images/yinwrong_logo_01.jpg';
 import './Header.css';
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -26,8 +24,7 @@ export const Header = () => {
         <Container fluid>
           <Navbar.Brand>
             <div className="header-left">
-              {/* <Link to="/"><img src={logo} className="logo" alt="Yin"></img></Link> */}
-              <span className="title">YIN WRONG / Animator, Illustrator, Printmaker</span>
+              <span className="title">YIN WRONG / Artist & Experimental Animator</span>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expanded}`} className="my-navbar-toggler" />

@@ -22,4 +22,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_USER: github-actions[bot]
         run: DISABLE_ESLINT_PLUGIN=true CI=false yarn deploy
