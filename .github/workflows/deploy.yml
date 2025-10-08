@@ -32,4 +32,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           DISABLE_ESLINT_PLUGIN=true CI=false \
+          yarn predeploy
           npx gh-pages -d build --repo https://x-access-token:${GITHUB_TOKEN}@github.com/chambersecho/chambersecho.github.io.git
