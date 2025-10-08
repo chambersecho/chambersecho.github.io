@@ -21,13 +21,11 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Set git identity
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
       - name: Deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_USER: github-actions[bot]
-        run: DISABLE_ESLINT_PLUGIN=true CI=false yarn deploy
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          DISABLE_ESLINT_PLUGIN=true CI=false \
+          gh-pages -d build --repo https://x-access-token:${GITHUB_TOKEN}@github.com/chambersecho/chambersecho.github.io.git
