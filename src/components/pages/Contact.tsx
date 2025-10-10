@@ -14,7 +14,7 @@ export const Contact = () => {
           <Link to="/">Yin Wrong</Link> is a Hong Kong-born, London-based artist exploring themes of existentialism, time, and identity through frame-by-frame 2D animation and willow charcoal painting. Their work draws from the aesthetic of memento mori, the persistence of Norman McLaren, and the spirit of resistance embodied in the Harlem Renaissance. Yin's practice navigates the tension between memory, ephemerality, and endurance—asking what it means to exist, to vanish, and to leave a trace.
           <div >
             <br/>
-            Fully autodidact and raised in an indifferent and unsupportive environment, my work is built on creative rebellion, and my very being is a testament to self-reliance.
+            Fully autodidact and raised in an indifferent and unsupportive environment, their work is built on creative rebellion, and their very being is a testament to self-reliance.
             <br/>
             <br/>
             Please, no junk mail. contact@yinwrong.com
