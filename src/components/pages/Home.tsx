@@ -15,7 +15,6 @@ export const Home = () => {
                 {/* <a href="https://yintooooyang.bandcamp.com">Bandcamp</a> */}
                 <a href="https://soundcloud.com/chambersecho">Soundcloud</a>
                 <a href="https://www.behance.net/yintooooyang">Behance</a>
-                <a href="https://open.spotify.com/artist/4mY6HetUs2JLAJHUDPldCX?si=F4tjyfTaSXG6dRXHycRF7A">Spotify</a>
                 {/* <br />
                 <a href="https://www.goodreads.com/yinwrong">Goodreads</a>
                 <a href="https://letterboxd.com/yinwrong/">Letterboxd</a>
