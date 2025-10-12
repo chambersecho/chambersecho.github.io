@@ -59,6 +59,9 @@ export const Header = () => {
                   <NavDropdown.Item as={Link} onClick={linkOnClick} to="/whorl">
                     Whorl
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/thethirdcircuit">
+                    The Third Circuit
+                  </NavDropdown.Item>
                    
                   {/* <NavDropdown.Item as={Link} onClick={linkOnClick} to="/london">
                     London
