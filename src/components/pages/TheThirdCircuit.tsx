@@ -14,7 +14,7 @@ export const TheThirdCircuit = () => {
     return (
       <main className="thethirdcircuit">
         <div className='title'>The Third Circuit</div>
-        <div className='link'>( <a target="_blank" href='https://vimeo.com/1121671615'>Experimental Animation )</a></div>
+        <div className='link'>( <a target="_blank" href='https://vimeo.com/1116938746/97b8b8f4a4'>Experimental Animation )</a></div>
         <Carousel swipeable={false} animationHandler={"fade"} thumbWidth={120} showIndicators={false}>
             <div>
               <img alt='' src={The_Third_Circuit_Poster}></img>
