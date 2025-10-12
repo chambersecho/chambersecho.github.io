@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loadeK
 import { Carousel } from 'react-responsive-carousel';
 import './TheThirdCircuit.css';
-import Whorl_Poster_title from '../assets/images/Whorl/Whorl_Poster_title.jpg';
-import Whorl_Still01 from '../assets/images/Whorl/Whorl_Still01.jpg';
-import Whorl_Still from '../assets/images/Whorl/Whorl_Still.jpg';
-import Whorl_Still_03 from '../assets/images/Whorl/Whorl_Still_03.jpg';
+import The_Third_Circuit_Poster from '../assets/images/TheThirdCircuit/The_Third_Circuit_Poster.jpg';
+import The_Third_Circuit_Still from '../assets/images/TheThirdCircuit/The_Third_Circuit_Still.jpg';
+import The_Third_Circuit_Still_title from '../assets/images/TheThirdCircuit/The_Third_Circuit_Still_title.jpg';
+import The_Third_Circuit_still_02 from '../assets/images/TheThirdCircuit/The_Third_Circuit_still_02.jpg';
 
 export const TheThirdCircuit = () => {
     useEffect(() => {
@@ -13,23 +13,24 @@ export const TheThirdCircuit = () => {
       }, []);
     return (
       <main className="thethirdcircuit">
-        <div className='title'>Whorl</div>
-        <div className='link'>( <a target="_blank" href='https://vimeo.com/1116453067'>Experimental / Music Video )</a></div>
+        <div className='title'>The Third Circuit</div>
+        <div className='link'>( <a target="_blank" href='https://vimeo.com/1121671615'>Experimental Animation )</a></div>
         <Carousel swipeable={false} animationHandler={"fade"} thumbWidth={120} showIndicators={false}>
             <div>
-              <img alt='' src={Whorl_Poster_title}></img>
+              <img alt='' src={The_Third_Circuit_Poster}></img>
             </div>
             <div>
-              <img alt='' src={Whorl_Still01}></img>
+              <img alt='' src={The_Third_Circuit_Still_title}></img>
             </div>
             <div>
-              <img alt='' src={Whorl_Still}></img>
+              <img alt='' src={The_Third_Circuit_Still}></img>
             </div>
             <div>
-              <img alt='' src={Whorl_Still_03}></img>
+              <img alt='' src={The_Third_Circuit_still_02}></img>
             </div>
         </Carousel>
-        
+        <p className='link'>Official Selection<br></br><a target="_blank" href='https://corkfilmfest.org/?mc_cid=7674496ea3'>The 70th Cork International Film Festival - Free Radicals</a></p>
+
         {/* <button onClick={() => {setActiveIndex(2)}}>Click</button> */}
       </main>
     )
