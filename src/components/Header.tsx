@@ -41,7 +41,6 @@ export const Header = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 my-offcavas-body">
-                <Nav.Link as={Link} onClick={linkOnClick} to="/home">Link</Nav.Link>
                 {/* <NavDropdown
                   title="Short"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-1`}
@@ -50,7 +49,22 @@ export const Header = () => {
                     Routine
                   </NavDropdown.Item>
                 </NavDropdown> */}
-                <Nav.Link as={Link} onClick={linkOnClick} to="/gif">GIF</Nav.Link>
+                <NavDropdown
+                  title="Work"
+                  id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
+                >
+                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/gif">
+                    GIF
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/whorl">
+                    Whorl
+                  </NavDropdown.Item>
+                   
+                  {/* <NavDropdown.Item as={Link} onClick={linkOnClick} to="/london">
+                    London
+                  </NavDropdown.Item> */}
+                </NavDropdown>
+                
                 <NavDropdown
                   title="Photography"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
@@ -70,6 +84,7 @@ export const Header = () => {
                 </NavDropdown>
                 <Nav.Link as={Link} onClick={linkOnClick} to="/contact">Contact</Nav.Link>
                 {/* <Nav.Link as={Link} onClick={linkOnClick} to="/supportme">$upport Me</Nav.Link> */}
+                <Nav.Link as={Link} onClick={linkOnClick} to="/home">Other links</Nav.Link>
               </Nav>
 
             </Offcanvas.Body>

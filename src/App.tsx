@@ -11,6 +11,7 @@ import { Antielab } from "./components/pages/Antielab";
 import { Pride } from "./components/pages/Pride";
 import { Routine } from "./components/pages/Routine";
 import { Kodak } from './components/pages/Kodak';
+import { Whorl } from './components/pages/Whorl';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Gif />} />
         <Route index element={<Gif />} />
         <Route path="gif" element={<Gif />} />
+        <Route path="whorl" element= {<Whorl />} />
         <Route path="home" element={<Home />} />
         <Route path="routine" element={<Routine />} />
         <Route path="pride" element={<Pride />} />
