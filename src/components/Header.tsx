@@ -5,6 +5,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import './Header.css';
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { NavDropdown } from 'react-bootstrap';
 
 export const Header = () => {
   const [closeBtnToggle, setCloseBtnToggle] = useState(false);
@@ -50,20 +51,23 @@ export const Header = () => {
                   </NavDropdown.Item>
                 </NavDropdown> */}
                 <Nav.Link as={Link} onClick={linkOnClick} to="/gif">GIF</Nav.Link>
-                {/* <NavDropdown
+                <NavDropdown
                   title="Photography"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
                 >
-                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/pride">
-                    Pride
-                  </NavDropdown.Item>
                   <NavDropdown.Item as={Link} onClick={linkOnClick} to="/antielab">
                     Antielab
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/london">
-                    London
+                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/pride">
+                    HK Pride 2019
                   </NavDropdown.Item>
-                </NavDropdown> */}
+                   <NavDropdown.Item as={Link} onClick={linkOnClick} to="/kodak">
+                    Kodak films
+                  </NavDropdown.Item>
+                  {/* <NavDropdown.Item as={Link} onClick={linkOnClick} to="/london">
+                    London
+                  </NavDropdown.Item> */}
+                </NavDropdown>
                 <Nav.Link as={Link} onClick={linkOnClick} to="/contact">Contact</Nav.Link>
                 {/* <Nav.Link as={Link} onClick={linkOnClick} to="/supportme">$upport Me</Nav.Link> */}
               </Nav>

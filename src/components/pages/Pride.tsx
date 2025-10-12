@@ -15,7 +15,7 @@ export const Pride = () => {
       }, []);
     return (
     <main className="pride">
-      <div className='title'>The Hong Kong Pride Parade</div>
+      <div className='title'>The Hong Kong Pride Parade 2019</div>
       
       <div className='desc'>( as a volunteer photographer )</div>
       

@@ -10,6 +10,7 @@ import { London } from "./components/pages/London";
 import { Antielab } from "./components/pages/Antielab";
 import { Pride } from "./components/pages/Pride";
 import { Routine } from "./components/pages/Routine";
+import { Kodak } from './components/pages/Kodak';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="routine" element={<Routine />} />
         <Route path="pride" element={<Pride />} />
         <Route path="antielab" element={<Antielab />} />
+        <Route path="kodak" element={<Kodak />} />
         <Route path="london" element={<London />} />
         <Route path="contact" element={<Contact />} />
         <Route path="supportme" element={<SupportMe />} />
