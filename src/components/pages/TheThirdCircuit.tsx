@@ -29,7 +29,7 @@ export const TheThirdCircuit = () => {
               <img alt='' src={The_Third_Circuit_still_02}></img>
             </div>
         </Carousel>
-        <p className='link'>Official Selection<br></br><a target="_blank" href='https://corkfilmfest.org/?mc_cid=7674496ea3'>The 70th Cork International Film Festival - Free Radicals</a></p>
+        <p className='link'>Official Selection<br></br><a target="_blank" href='https://corkfilmfest.org/?mc_cid=7674496ea3'>The 70th Cork International Film Festival - Free Radicals</a><br></br>To be announced on Oct 15</p>
 
         {/* <button onClick={() => {setActiveIndex(2)}}>Click</button> */}
       </main>
