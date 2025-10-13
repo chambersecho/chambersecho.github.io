@@ -29,6 +29,8 @@ export const Whorl = () => {
               <img alt='' src={Whorl_Still_03}></img>
             </div>
         </Carousel>
+
+        <p className="link">Official Selection<br></br><a target="_blank" href='https://www.newfilmmakers.com/fall-series-november-1-30/'>NewFilmmakers NY</a><br></br><a target="_blank"href="https://liftoff.network/">Lift-Off Sessions 2025 Volume 10</a></p>
         
         {/* <button onClick={() => {setActiveIndex(2)}}>Click</button> */}
       </main>
