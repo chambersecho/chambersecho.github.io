@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import './Contact.css';
-import yw_profilepic_04 from '../assets/ProfielPic/yw_profilepic_04.jpeg';
+import yw_profilepic_04 from '../assets/ProfilePic/yw_profilepic_04.jpeg';
 import { Link } from "react-router-dom";
 
 export const Contact = () => {
