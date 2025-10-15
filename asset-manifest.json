@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aaee8c9d.css",
-    "main.js": "/static/js/main.a47d7632.js",
+    "main.js": "/static/js/main.35448c6b.js",
     "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
     "static/media/ldn_aug2025_6.jpg": "/static/media/ldn_aug2025_6.476ea3754970233efe10.jpg",
     "static/media/Skull_Skeleton.gif": "/static/media/Skull_Skeleton.41f8131ef0a2be81de71.gif",
@@ -21,8 +21,8 @@
     "static/media/Whorl_Still01.jpg": "/static/media/Whorl_Still01.6c4531dcb6bb09d6a668.jpg",
     "static/media/02.jpg": "/static/media/02.e4d3b793aca3e4c1a2e6.jpg",
     "static/media/The_Third_Circuit_Poster.jpg": "/static/media/The_Third_Circuit_Poster.23fa1efd7fa717de720b.jpg",
+    "static/media/yw_profilepic_03.jpg": "/static/media/yw_profilepic_03.32834278b937e8d3284b.jpg",
     "static/media/chickenDrumsticks01.jpg": "/static/media/chickenDrumsticks01.5034dd8f1cf0d5cafe05.jpg",
-    "static/media/yw_proiflepic_04.jpg": "/static/media/yw_proiflepic_04.96b385a1a7596497b372.jpg",
     "static/media/chickendrumstick02.jpg": "/static/media/chickendrumstick02.a109e7fdcc8abb1daa47.jpg",
     "static/media/Nov_30_2019_01.jpg": "/static/media/Nov_30_2019_01.ac2da8e71fe168880d25.jpg",
     "static/media/The_Third_Circuit_still_02.jpg": "/static/media/The_Third_Circuit_still_02.318ed4062322321c25bb.jpg",
@@ -59,11 +59,11 @@
     "static/media/close-btn.svg": "/static/media/close-btn.2d6853254fc3e0699e3b.svg",
     "static/media/burger.svg": "/static/media/burger.4d9b82acdafa060bcff0.svg",
     "main.aaee8c9d.css.map": "/static/css/main.aaee8c9d.css.map",
-    "main.a47d7632.js.map": "/static/js/main.a47d7632.js.map",
+    "main.35448c6b.js.map": "/static/js/main.35448c6b.js.map",
     "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aaee8c9d.css",
-    "static/js/main.a47d7632.js"
+    "static/js/main.35448c6b.js"
   ]
 }
