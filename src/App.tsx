@@ -20,7 +20,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Contact/>} />
-        <Route index element={<Gif />} />
+        <Route index element={<Contact />} />
         <Route path="gif" element={<Gif />} />
         <Route path="whorl" element= {<Whorl />} />
         <Route path="thethirdcircuit" element= {<TheThirdCircuit/>} />
