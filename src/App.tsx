@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Gif />} />
+        <Route path="/" element={<Contact/>} />
         <Route index element={<Gif />} />
         <Route path="gif" element={<Gif />} />
         <Route path="whorl" element= {<Whorl />} />
@@ -32,7 +32,7 @@ function App() {
         <Route path="london" element={<London />} />
         <Route path="contact" element={<Contact />} />
         <Route path="supportme" element={<SupportMe />} />
-        <Route path="*" element={<Gif />} />
+        <Route path="*" element={<Contact />} />
       </Routes>
     </div>
   );
