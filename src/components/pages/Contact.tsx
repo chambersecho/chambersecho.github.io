@@ -11,7 +11,7 @@ export const Contact = () => {
       <main className="contact">
         <div className="desc">
           <img alt='' src={yw_profilepic_03}></img>
-          <Link color="#ffffff" to="/">Yin Wrong</Link> is a Hong Kong-born, London-based artist exploring themes of existentialism, time, and identity through frame-by-frame 2D animation and willow charcoal painting. Their work draws from the aesthetic of <Link to="/">Memento Mori</Link>, the persistence of <Link to="/">Norman McLaren</Link>, and the spirit of resistance embodied in the <Link to="/">Harlem Renaissance</Link>. They explore the relationship between Evanescence, Momentariness, and Transience. They constantly ask what is “real” amidst delirium and chaos, and wonder what would be the last picture an individual sees when the robots of re-education come to wipe our memories. 
+          <Link to="/">Yin Wrong</Link> is a Hong Kong-born, London-based artist exploring themes of existentialism, time, and identity through frame-by-frame 2D animation and willow charcoal painting. Their work draws from the aesthetic of <Link to="/">Memento Mori</Link>, the persistence of <Link to="/">Norman McLaren</Link>, and the spirit of resistance embodied in the <Link to="/">Harlem Renaissance</Link>. They explore the relationship between Evanescence, Momentariness, and Transience. They constantly ask what is “real” amidst delirium and chaos, and wonder what would be the last picture an individual sees when the robots of re-education come to wipe our memories. 
 
 
           <div >
