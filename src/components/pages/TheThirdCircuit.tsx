@@ -31,7 +31,7 @@ export const TheThirdCircuit = () => {
         </Carousel>
         <p className='link'>Official Selection<br></br><a target="_blank" href='https://corkfilmfest.org/?mc_cid=7674496ea3'>The 70th Cork International Film Festival - Free Radicals</a><br></br>To be announced on Oct 15</p>
 
-        <button onClick={() => {setActiveIndex(2)}}>Click</button>
+        {/* <button onClick={() => {setActiveIndex(2)}}>Click</button> */}
       </main>
     )
 }
