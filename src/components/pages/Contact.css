@@ -38,6 +38,15 @@
 .contact .desc a.snowyLink{
     color: #f9f9f9;
 }
+.contact .desc a.roseLink{
+    color: #932c2f
+}
+.contact .desc a.bewaterLink{
+    color: #334f70
+}
+.contact .desc a.earthyLink{
+    color: #c3a23f
+}
 
 .contact .email{
     text-align: center;
