@@ -16,7 +16,7 @@ export const Contact = () => {
 
           <div >
             <br/>
-            Fully autodidact and raised in an indifferent and unsupportive environment, their work is built on creative rebellion, <br></br>and their very being is a testament to self-reliance.
+            Fully autodidact and raised in an indifferent and unsupportive environment, their work is built on creative rebellion, and their very being is a testament to self-reliance.
             <br/>
             <br/>
             Please, no junk mail. contact@yinwrong.com <br></br>Any email related to my career as an artist would be cc to @edulaweb@gmail.com <br></br>Simon Edwards - my favourite manager in the world. 
