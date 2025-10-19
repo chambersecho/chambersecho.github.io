@@ -66,6 +66,18 @@
     color: #ffc300;
     text-decoration: none;
 }
+.whorl a.earthyLink{
+    color: #c3a23f;
+    text-decoration: none;
+}
+.whorl a.bewaterLink{
+    color: #334f70;
+    text-decoration: none;
+}
+.whorl a.roseLink{
+    color: #932c2f;
+    text-decoration: none;
+}
 .whorl .link a:hover{
     text-decoration: underline;
 }
