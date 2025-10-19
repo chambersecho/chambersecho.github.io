@@ -31,7 +31,7 @@ export const Whorl = () => {
         </Carousel>
 
         <p className="link">Official Selection<br></br><a target="_blank" href='https://www.newfilmmakers.com/fall-series-november-1-30/'>NewFilmmakers NY</a><br></br><a target="_blank"href="https://liftoff.network/">Lift-Off Sessions 2025 Volume 10</a></p>
-      <><p>Synopsis<br></br><br></br>A secret island popped up in an hourglass of a fountain, skeleton dancers bring you back to the 90s by their iconic dance moves and choreography inspired by popular American MVs of the era. To remind people that interesting things out of the mainstream did happen in the past, but were overlooked.<br></br>
+      <><p>Synopsis<br></br><br></br>A secret island popped up in an hourglass of a fountain, skeleton dancers bring you back to the 90s by their iconic dance moves and choreography inspired by popular American MVs of the era and Avant-garde artists who broke the rules. To remind people that interesting things out of the mainstream did happen in the past, but were overlooked.<br></br>
 <br></br>
 Soundtrack by Polypores <br></br>( Stephen James Buckley)</p></><br></br>
 <p>Note</p><br></br>
@@ -39,7 +39,7 @@ I discovered Polypores' music on Bandcamp in 2023 while I was in Paris. It wasn'
 Later, I met him at a gig in Liverpool, and we quickly became friends. <br></br><br></br>After he saw <a className="earthyLink" href="https://yinwrong.com/thethirdcircuit">The Third Circuit</a>, he asked if I wanted to make a music video for him. I agreed to give it a try, so I visited Preston for inspiration. I spent some time in the park, wandering around, taking photos and videos. I was especially drawn to <a className="bewaterLink" target="_blank" href="https://telegra.ph/Whorl-Moodboard-02-28">a fountain</a> that looked abandoned, but I imagined it was once full of life, so I placed an hourglass there. This made me think about what influences Polypores' music. 
 <br></br><br></br>Since he grew up in the 90s, I watched a lot of dance videos from that era. While talking to Em Tingler, they mentioned that <a className="roseLink">Buffy the Vampire Slayer</a> is very 90s, so I watched the first episode and noticed a guy on a skateboard. That made me think of the <a className="earthyLink">Z-Boys</a>, so I decided to include <a className="earthyLink">Jay Adams</a>. Em also suggested <a className="bewaterLink">Jason Lee</a>, so I added him too.
 <br></br><br></br>
-The dance moves take inspiration from well-known 90s American music videos, such as those featuring <a className="roseLink">Bart Simpson</a>, <a className="bewaterLink">'Creep'</a>, and <a className="earthyLink">the Butterfly</a>. 
+The dance moves take inspiration from well-known 90s American music videos, such as those featuring <a className="roseLink">Bart Simpson</a>/<a className="bewaterLink">'Creep'</a>, and <a className="earthyLink">the Butterfly</a>. 
 They also draw from choreographers like <a className="roseLink">Michael Clark</a> and <a className="bewaterLink">Anne Teresa De Keersmaeker</a>, who are respected in experimental and avant-garde circles but often missed by mainstream audiences.
 
 
