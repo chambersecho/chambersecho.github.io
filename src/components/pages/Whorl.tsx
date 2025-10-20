@@ -30,7 +30,7 @@ export const Whorl = () => {
             </div>
         </Carousel>
 
-        <p className="link">Official Selection<br></br><a target="_blank" href='https://www.newfilmmakers.com/fall-series-november-1-30/'>NewFilmmakers NY</a><br></br><a target="_blank"href="https://liftoff.network/">Lift-Off Sessions 2025 Volume 10</a></p>
+        <p className="link">Official Selection<br></br><a target="_blank" href='https://www.newfilmmakers.com/fall-series-november-1-30/'>NewFilmmakers NY</a><br></br><a target="_blank"href="https://liftoff.network/ft-filmmaker-sessions-2025-v10/">Lift-Off Sessions 2025 Volume 10</a></p>
       <><p>Synopsis<br></br><br></br>A secret island popped up in an hourglass of a fountain, skeleton dancers bring you back to the 90s by their iconic dance moves and choreography inspired by popular American MVs of the era and Avant-garde artists who broke the rules. To remind people that interesting things out of the mainstream did happen in the past, but were overlooked.<br></br>
 <br></br>
 Soundtrack by Polypores <br></br>( Stephen James Buckley)</p></><br></br>
