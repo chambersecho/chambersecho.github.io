@@ -20,7 +20,7 @@ When they are not working as a front-end developer on SaaS or sticking labels on
             Fully autodidact, raised in an indifferent and unsupportive environment, their work is built on creative rebellion, and their very being is a testament to self-reliance.
             <br/>
             <br/>
-            Please, no junk mail. contact@yinwrong.com <br></br>Any email related to my career as an artist would be cc to edulaweb@gmail.com <br></br>Simon Edwards - my favourite manager in the world. 
+            <Link className="roseLink" to="">Please</Link>, no junk mail. <Link className="earthyLink" to="">contact@yinwrong.com</Link> <br></br>Any email related to my career as an artist would be cc to <Link className="bewaterLink" to="">edulaweb@gmail.com</Link><br></br>Simon Edwards - my favourite manager in the world. 
           </div>
         </div>
 
