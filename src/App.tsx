@@ -13,6 +13,8 @@ import { Routine } from "./components/pages/Routine";
 import { Kodak } from './components/pages/Kodak';
 import { Whorl } from './components/pages/Whorl';
 import { TheThirdCircuit } from './components/pages/TheThirdCircuit';
+// import { Linocut } from './components/pages/Linocut';
+// import { HandCarvedStamp } from './components/pages/HandCarvedStamp';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path="gif" element={<Gif />} />
         <Route path="whorl" element= {<Whorl />} />
         <Route path="thethirdcircuit" element= {<TheThirdCircuit/>} />
+        {/* <Route path="linocut" element= {<Linocut/>} />
+        <Route path="handcarvedstamp" element= {<HandCarvedStamp/>} /> */}
         <Route path="home" element={<Home />} />
         <Route path="routine" element={<Routine />} />
         <Route path="pride" element={<Pride />} />

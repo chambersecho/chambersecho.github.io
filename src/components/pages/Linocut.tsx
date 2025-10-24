@@ -1,19 +1,19 @@
 import { useEffect } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loadeK
 import { Carousel } from 'react-responsive-carousel';
-import './Whorl.css';
+import './Linocut.css';
 import Whorl_Poster_title from '../assets/images/Whorl/Whorl_Poster_title.jpg';
 import Whorl_Still01 from '../assets/images/Whorl/Whorl_Still01.jpg';
 import Whorl_Still from '../assets/images/Whorl/Whorl_Still.jpg';
 import Whorl_Still_03 from '../assets/images/Whorl/Whorl_Still_03.jpg';
 
-export const Whorl = () => {
+export const Linocut = () => {
     useEffect(() => {
-        document.title = 'Whorl - Yin';
+        document.title = 'Linocut - Yin';
       }, []);
     return (
-      <main className="whorl">
-        <div className='title'>Whorl</div>
+      <main className="linocut">
+        <div className='title'>Linocut</div>
         <div className='link'>( <a target="_blank" rel="noreferrer" href='https://vimeo.com/1116453067'>Experimental / Music Video )</a></div>
         <Carousel swipeable={false} animationHandler={"fade"} thumbWidth={120} showIndicators={false}>
             <div>

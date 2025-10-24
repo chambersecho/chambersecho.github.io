@@ -14,7 +14,7 @@ export const TheThirdCircuit = () => {
     return (
       <main className="thethirdcircuit">
         <div className='title'>The Third Circuit</div>
-        <div className='link'>( <a target="_blank" href='https://vimeo.com/1121671615'>Experimental Animation )</a></div>
+        <div className='link'>( <a target="_blank" rel="noreferrer" href='https://vimeo.com/1121671615'>Experimental Animation )</a></div>
         <Carousel swipeable={false} animationHandler={"fade"} thumbWidth={120} showIndicators={false}>
             <div>
               <img alt='' src={The_Third_Circuit_Poster}></img>
@@ -29,7 +29,7 @@ export const TheThirdCircuit = () => {
               <img alt='' src={The_Third_Circuit_still_02}></img>
             </div>
         </Carousel>
-        <p className='link'>Official Selection<br></br><a target="_blank" href='https://corkfilmfest.org/events/free-radicals-68ebdf9330ca32d686a9ad95/'>The 70th Cork International Film Festival - Free Radicals</a></p>
+        <p className='link'>Official Selection<br></br><a target="_blank" rel="noreferrer" href='https://corkfilmfest.org/events/free-radicals-68ebdf9330ca32d686a9ad95/'>The 70th Cork International Film Festival - Free Radicals</a></p>
 
       </main>
     )

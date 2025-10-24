@@ -41,16 +41,9 @@ export const Header = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 my-offcavas-body">
-                {/* <NavDropdown
-                  title="Short"
-                  id={`offcanvasNavbarDropdown-expand-${expanded}-1`}
-                >
-                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/routine">
-                    Routine
-                  </NavDropdown.Item>
-                </NavDropdown> */}
+                
                 <NavDropdown
-                  title="Work"
+                  title="Animation"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
                 >
                   <NavDropdown.Item as={Link} onClick={linkOnClick} to="/gif">
@@ -63,11 +56,36 @@ export const Header = () => {
                     The Third Circuit
                   </NavDropdown.Item>
                    
-                  {/* <NavDropdown.Item as={Link} onClick={linkOnClick} to="/london">
-                    London
-                  </NavDropdown.Item> */}
                 </NavDropdown>
+                {/* <NavDropdown
+                  title="Printmaking"
+                  id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
+                >
+                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/linocut">
+                    Linocut
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/handcarvedstamp">
+                    Hand Carved Stamp
+                  </NavDropdown.Item>
                 
+                </NavDropdown> */}
+
+                {/* <NavDropdown
+                  title="Poem"
+                  id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
+                >
+                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/thepull">
+                    The Pull
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/theblacksheep">
+                    The Black Sheep
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/maybeIbelieveinart">
+                    Maybe I believe in art
+                  </NavDropdown.Item>
+                
+                </NavDropdown> */}
+
                 <NavDropdown
                   title="Photography"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
@@ -85,10 +103,14 @@ export const Header = () => {
                     London
                   </NavDropdown.Item> */}
                 </NavDropdown>
+                
                 <Nav.Link as={Link} onClick={linkOnClick} to="/contact">Contact</Nav.Link>
                 {/* <Nav.Link as={Link} onClick={linkOnClick} to="/supportme">$upport Me</Nav.Link> */}
                 <Nav.Link as={Link} onClick={linkOnClick} to="/home">Other links</Nav.Link>
               </Nav>
+
+
+              
 
             </Offcanvas.Body>
           </Navbar.Offcanvas>
