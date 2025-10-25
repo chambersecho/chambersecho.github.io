@@ -29,7 +29,9 @@ export const TheThirdCircuit = () => {
               <img alt='' src={The_Third_Circuit_still_02}></img>
             </div>
         </Carousel>
-        <p className='link'>Official Selection<br></br><a target="_blank" rel="noreferrer" href='https://corkfilmfest.org/events/free-radicals-68ebdf9330ca32d686a9ad95/'>The 70th Cork International Film Festival - Free Radicals</a></p>
+        <p className='link'>Official Selection<br></br><a target="_blank" rel="noreferrer" href='https://corkfilmfest.org/events/free-radicals-68ebdf9330ca32d686a9ad95/'>The 70th Cork International Film Festival - Free Radicals</a><br></br>
+        <><a href="https://www.tokyoshortfilmfest.com/post/the-third-circuit-directed-by-yin-wrong-yin-wong">Toyko International Short Film Festival</a></></p>
+
 
       </main>
     )
