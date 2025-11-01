@@ -90,12 +90,12 @@ export const Header = () => {
                   title="Photography"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
                 >
-                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/antielab">
+                  {/* <NavDropdown.Item as={Link} onClick={linkOnClick} to="/antielab">
                     Antielab
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} onClick={linkOnClick} to="/pride">
                     HK Pride 2019
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                    <NavDropdown.Item as={Link} onClick={linkOnClick} to="/kodak">
                     Kodak films
                   </NavDropdown.Item>
