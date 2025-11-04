@@ -21,8 +21,8 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Contact />} />
-        <Route index element={<Contact />} />
+        <Route path="/" element={<Gif />} />
+        <Route index element={<Gif />} />
         <Route path="gif" element={<Gif />} />
         <Route path="whorl" element= {<Whorl />} />
         <Route path="thethirdcircuit" element= {<TheThirdCircuit/>} />
@@ -36,7 +36,7 @@ function App() {
         <Route path="london" element={<London />} />
         <Route path="contact" element={<Contact />} />
         <Route path="supportme" element={<SupportMe />} />
-        <Route path="*" element={<Contact />} />
+        <Route path="*" element={<Gif />} />
       </Routes>
     </div>
   );
