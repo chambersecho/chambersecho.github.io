@@ -5,7 +5,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import './Header.css';
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { NavDropdown } from 'react-bootstrap';
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 export const Header = () => {
   const [closeBtnToggle, setCloseBtnToggle] = useState(false);
@@ -41,7 +41,14 @@ export const Header = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 my-offcavas-body">
-                
+                <NavDropdown
+                  title="Bespoke"
+                  id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
+                >
+                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/custom-soapstone-stamp">
+                    Soapstone
+                  </NavDropdown.Item>
+                </NavDropdown>
                 <NavDropdown
                   title="Animation"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-2`}

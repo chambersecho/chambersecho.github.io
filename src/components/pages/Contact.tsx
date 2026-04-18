@@ -11,9 +11,8 @@ export const Contact = () => {
       <main className="contact">
         <div className="desc">
           <img alt='' src={yw_profilepic_03}></img>
-          <Link className="earthyLink" to="/">Yin Wrong</Link> is a Hong Kong-born Asian American, ( London-based atm ) artist exploring themes of existentialism, time, and identity through frame-by-frame animation and willow charcoal painting. Their work draws from the aesthetic of <Link className="roseLink" to="/">Memento Mori</Link>, the persistence of <Link className="bewaterLink" to="/">Norman McLaren</Link>, and the spirit of resistance embodied in the <Link className="earthyLink" to="/">Harlem Renaissance</Link>. They explore the relationship between Ephemerality, Momentariness, and Timelessness. They constantly ask what is <Link to="" className='earthyLink'>"real”</Link> amidst delirium and chaos, and wonder what, if anything, outlasts us. 
-<div ><br></br><br></br>
-  They are currently drawing on lottery slips, transit tickets, and tracing paper imprinted with patterns of chance to create time-based media and frame-by-frame animation. They believe that what keeps them an artist and grants them the privilege to draw is merely a matter of luck. The motif of chance serves as both a reminder and an echo of the days they survived on “false hope.”<br></br>
+          <Link to="/">Yin Wrong</Link> is a Hong Kong-born, Autistic artist exploring themes of existentialism, time, and identity through frame-by-frame 2D animation, woodblock and stone. Their work draws from the aesthetic of memento mori, the persistence of Norman McLaren, and the spirit of resistance embodied in the Harlem Renaissance. Yin's practice navigates the tension between memory, ephemerality, and endurance—asking what it means to exist, to vanish, and to leave a trace.
+          <div >
             <br/>
             A fully autodidactic artist, raised in an indifferent and unsupportive environment, their work is built on creative rebellion, and their very being is a testament to self-reliance.
             They were a web designer and front-end developer before transitioning to an independent animator and artist.
