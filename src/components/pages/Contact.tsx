@@ -18,7 +18,7 @@ export const Contact = () => {
             They were a web designer and front-end developer before transitioning to an independent animator and artist.
             <br/>
             <br/>
-            <Link className="roseLink" to="">Please</Link>, no junk mail. <Link className="earthyLink" to="">contact@yinwrong.com</Link> <br></br>Simon Edwards - my favourite manager in the world. 
+            <Link className="roseLink" to="">Please</Link>, no junk mail. <Link className="earthyLink" to="">contact@yinwrong.com</Link> 
           </div>
         </div>
 
