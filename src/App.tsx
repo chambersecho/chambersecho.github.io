@@ -15,6 +15,7 @@ import { Whorl } from './components/pages/Whorl';
 import { TheThirdCircuit } from './components/pages/TheThirdCircuit';
 // import { Linocut } from './components/pages/Linocut';
 // import { HandCarvedStamp } from './components/pages/HandCarvedStamp';
+import { CustomSoapstoneStamp } from "./components/pages/CustomSoapstoneStamp";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="london" element={<London />} />
         <Route path="contact" element={<Contact />} />
         <Route path="supportme" element={<SupportMe />} />
+        <Route path="custom-soapstone-stamp" element={<CustomSoapstoneStamp />} />
         <Route path="*" element={<Gif />} />
       </Routes>
     </div>
