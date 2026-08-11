@@ -19,13 +19,19 @@ export const Contact = () => {
           <div >
             <br/>
            I am splitting my time between London, Manchester and NYC.
-           (mostly depends on the boyfriend )
+           (mostly depends on the boyfriend ) <br/>I am usually at places with birds or squirrels and nice water. <br/>
+           or spaces where people who know Bell Hooks is.
            <br/>
             <br/>
             Don't like AI generated anything.
             <br/>
+            Tired of socials and people who tell you to "stand up straight"
             <br/>
-            <Link className="roseLink" to="">Don't need to contact me </Link><br/>if you are not an artist / musician / model or playwright I like, I just want to be honest and don't want to waste time. <Link className="earthyLink" to="">contact@yinwrong.com</Link> 
+            ( omg so scary, control freaks! ) )
+            <br></br>
+            <br/>
+            <Link className="roseLink" to="">Don't need to contact me </Link><br/>if you are not an artist / musician / model or playwright I like, <br/>I just want to be honest and don't want to waste time. 
+            <br/><Link className="earthyLink" to="">contact@yinwrong.com</Link> 
           </div>
         </div>
 
