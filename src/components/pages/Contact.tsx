@@ -27,7 +27,7 @@ export const Contact = () => {
             <br/>
             Tired of socials and people who tell you to "stand up straight"
             <br/>
-            ( omg so scary, control freaks! ) )
+            ( omg so scary, control freaks!)
             <br></br>
             <br/>
             <Link className="roseLink" to="">Don't need to contact me </Link><br/>if you are not an artist / musician / model or playwright I like, <br/>I just want to be honest and don't want to waste time. 
