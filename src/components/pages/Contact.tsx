@@ -30,7 +30,7 @@ export const Contact = () => {
             ( omg so scary, control freaks )
             <br></br>
             <br/>
-            <Link className="roseLink" to="">Don't need to contact me </Link><br/>if you are not an artist / musician / model / playwright or independent bookshop I like, <br/>I just want to be honest and don't want to waste time. 
+            <Link className="roseLink" to="">Don't need to contact me </Link><br/>if you are not an artist / musician / model / playwright or independent bookshop I like,<br/>I just want to be honest and don't want to waste time. 
             <br/><Link className="earthyLink" to="">contact@yinwrong.com</Link> 
           </div>
         </div>
