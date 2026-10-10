@@ -18,7 +18,7 @@ export const Contact = () => {
           or shape them into something they are not supposed to be. 
           <div >
             <br/>
-           I am splitting my time between London, Manchester and NYC.
+           I am splitting my time between "Divided Random" and NYC.<br/>
            (mostly depends on the boyfriend ) <br/>I am usually at places with birds or squirrels and nice water. <br/>
            or spaces where people who know Bell Hooks is.
            <br/>
@@ -31,7 +31,7 @@ export const Contact = () => {
             <br></br>
             <br/>
             <Link className="roseLink" to="">Don't need to contact me </Link><br/>if you are not an artist / musician / model / playwright or independent bookshop that I am working with<br/>I just want to be honest and don't want to waste time. 
-            <br/><Link className="earthyLink" to="">contact@yinwrong.com</Link> 
+            <br/><Link className="earthyLink" to="">info@yinanthony.com</Link> 
           </div>
         </div>
 

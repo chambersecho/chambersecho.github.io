@@ -25,7 +25,7 @@ export const Header = () => {
         <Container fluid>
           <Navbar.Brand>
             <div className="header-left">
-              <span className="title">YIN WRONG / Artist & Experimental Animator</span>
+              <span className="title">YIN ANTHONY / Artist & Experimental Animator</span>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expanded}`} className="my-navbar-toggler" />
@@ -41,14 +41,14 @@ export const Header = () => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 my-offcavas-body">
-                <NavDropdown
+                {/* <NavDropdown
                   title="Bespoke"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
                 >
                   <NavDropdown.Item as={Link} onClick={linkOnClick} to="/custom-soapstone-stamp">
                     Soapstone
                   </NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
                 <NavDropdown
                   title="Animation"
                   id={`offcanvasNavbarDropdown-expand-${expanded}-2`}
@@ -56,12 +56,12 @@ export const Header = () => {
                   <NavDropdown.Item as={Link} onClick={linkOnClick} to="/gif">
                     GIF
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} onClick={linkOnClick} to="/whorl">
+                  {/* <NavDropdown.Item as={Link} onClick={linkOnClick} to="/whorl">
                     Whorl
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} onClick={linkOnClick} to="/thethirdcircuit">
                     The Third Circuit
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                    
                 </NavDropdown>
                 {/* <NavDropdown
@@ -113,7 +113,7 @@ export const Header = () => {
                 
                 <Nav.Link as={Link} onClick={linkOnClick} to="/contact">Contact</Nav.Link>
                 {/* <Nav.Link as={Link} onClick={linkOnClick} to="/supportme">$upport Me</Nav.Link> */}
-                <Nav.Link as={Link} onClick={linkOnClick} to="/home">Other links</Nav.Link>
+                {/* <Nav.Link as={Link} onClick={linkOnClick} to="/home">Other links</Nav.Link> */}
               </Nav>
 
 
