@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import './Contact.css';
-import loop_sempre_logo_1 from '../assets/images/ProfilePic/loop_sempre_logo_1.jpg';
+import eyes2Gif from '../assets/images/Eyes2.gif';
 import { Link } from "react-router-dom";
 
 export const Contact = () => {
@@ -10,8 +10,7 @@ export const Contact = () => {
     return (
       <main className="contact">
         <div className="desc">
-          <img alt='' src={eyes2Gif} className="eyes2Gif"
-          ></img>
+          <img alt='' src={eyes2Gif} className="eyes2Gif"></img>
           Hello, I am Yin. 
           <br/>
           I like frame-by-frame experimental animation & memento mori. 
