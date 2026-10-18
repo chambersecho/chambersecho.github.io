@@ -10,7 +10,8 @@ export const Contact = () => {
     return (
       <main className="contact">
         <div className="desc">
-          <img alt='' src={loop_sempre_logo_1}></img>
+          <img alt='' src={eyes2Gif} className="eyes2Gif"
+          ></img>
           Hello, I am Yin. 
           <br/>
           I like frame-by-frame experimental animation & memento mori. 
