@@ -14,12 +14,12 @@ export const Contact = () => {
           Hello, I am Yin. 
           <br/>
           I like frame-by-frame experimental animation & memento mori. 
-          Sometimes I carve on woodblock, marble or other stones, 
+          Sometimes I carve on woodblock and marble, 
           or shape them into something they are not supposed to be. 
           <div >
             <br/>
            I am splitting my time between "Divided Random" and NYC.<br/>
-           (mostly depends on the boyfriend ) <br/>I am usually at places with birds or squirrels and nice water. <br/>
+           I am usually at places with birds or squirrels and nice water. <br/>
            or spaces where people who know Bell Hooks is.
            <br/>
             <br/>
